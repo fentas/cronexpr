@@ -1,3 +1,12 @@
+/*!
+ * Copyright 2015 Jan Guth
+ *
+ * Project: github.com/fentas/cronexpr
+ * File: cronexpr.go
+ * Version: 0.1.0
+ * License: AGPLv3 see <https://www.gnu.org/licenses/agpl-3.0.html>
+ *
+ */
 package main
 
 import (

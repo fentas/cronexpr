@@ -1,12 +1,7 @@
-Golang Cron expression parser
+Cron expression parser ( cli )
 =============================
 Given a cron expression and a time stamp, you can get the next time stamp which satisfies the cron expression.
-
-In another project, I decided to use cron expression syntax to encode scheduling information. Thus this standalone library to parse and apply time stamps to cron expressions.
-
-The time-matching algorithm in this implementation is efficient, it avoids as much as possible to guess the next matching time stamp, a common technique seen in a number of implementations out there.
-
-There is also a companion command-line utility to evaluate cron time expressions: <https://github.com/gorhill/cronexpr/tree/master/cronexpr> (which of course uses this library).
+It is based on the standalone Go library https://github.com/gorhill/cronexpr.
 
 Implementation
 --------------
