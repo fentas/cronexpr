@@ -72,7 +72,7 @@ go install github.com/gorhill/cronexpr
 ```
 Or download binary:
 ```sh
-curl -skL https://github.com/fentas/cronexpr/releases/download/cronexpr-0.1.0/cronexpr -o /usr/local/bin/cronexpr
+curl -skL https://github.com/fentas/cronexpr/releases/download/0.1.0/cronexpr -o /usr/local/bin/cronexpr
 chmod +x /usr/local/bin/cronexpr
 ```
 
@@ -120,6 +120,10 @@ cronexpr -f "%c" -u 1456700400 "0 0 29 2 *"
 Resulting in
 
     Sat, 29 Feb 2020 00:00:00 CET
+
+Contributing
+--------
+Ideas and pull requests are always welcome.
 
 License
 -------
