@@ -72,7 +72,7 @@ go install github.com/gorhill/cronexpr
 ```
 Or download binary:
 ```sh
-curl -skL https://github.com/fentas/cronexpr/releases/download/0.1.0/cronexpr -o /usr/local/bin/cronexpr
+curl -sL -o /usr/local/bin/cronexpr "https://github.com/fentas/cronexpr/releases/download/0.1.0/cronexpr"
 chmod +x /usr/local/bin/cronexpr
 ```
 
