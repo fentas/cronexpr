@@ -68,7 +68,7 @@ Other details
 Install
 -------
 ```sh
-go install github.com/gorhill/cronexpr
+go install github.com/fentas/cronexpr
 ```
 Or download binary:
 ```sh
