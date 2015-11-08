@@ -80,7 +80,7 @@ Usage
 -----
 > ..as of 2015-11-07
 
-Simplest way (returning `1456700400`)
+Simplest way (returning unix timestamp ~ `1456700400`)
 ```sh
 cronexpr "0 0 29 2 *"
 ```
